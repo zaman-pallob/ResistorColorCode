@@ -677,6 +677,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable back
 drawable bg
 drawable fiveband
 drawable fourband
@@ -758,7 +759,9 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id fiveband
 id forever
+id fourband
 id gone
 id group_divider
 id groups
@@ -797,6 +800,7 @@ id radio
 id right
 id right_icon
 id right_side
+id root
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -816,6 +820,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sixband
 id spacer
 id split_action_bar
 id spread
@@ -883,6 +888,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout bfragment
+layout fiveband
+layout fourband
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -892,6 +900,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sixband
 layout support_simple_spinner_dropdown_item
 string abc_action_bar_home_description
 string abc_action_bar_up_description
