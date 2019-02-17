@@ -15,10 +15,12 @@
     <color name="Gray">#808080</color>
     <color name="Silver">#C0C0C0</color>
     <color name="White">#FFFFFF</color>
+    <color name="None">@android:color/transparent</color>
 
 
 
-    <array name="COLOR_A">
+
+    <array name="COLOR_Digit">
 
         <item>@color/Black</item>
         <item>@color/Brown</item>
@@ -32,7 +34,19 @@
         <item>@color/White</item>
 
     </array>
-    <array name="COLOR_B">
+    <array name="COLOR_Multiplier">
+        <item>@color/Silver</item>
+        <item>@color/Gold</item>
+        <item>@color/Black</item>
+        <item>@color/Brown</item>
+        <item>@color/Red</item>
+        <item>@color/Orange</item>
+        <item>@color/Yellow</item>
+        <item>@color/Green</item>
+        <item>@color/Blue</item>
+        <item>@color/Violet</item>
+    </array>
+    <array name="COLOR_Tolerance">
         <item>@color/Gray</item>
         <item>@color/Violet</item>
         <item>@color/Blue</item>
@@ -41,9 +55,10 @@
         <item>@color/Red</item>
         <item>@color/Gold</item>
         <item>@color/Silver</item>
+        <item>@color/None</item>
     </array>
 
-    <array name="COLOR_C">
+    <array name="COLOR_TempCoeff">
         <item>@color/Orange</item>
         <item>@color/Yellow</item>
         <item>@color/Red</item>

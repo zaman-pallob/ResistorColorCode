@@ -28,10 +28,10 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int cardview_dark_background = 0x7f050032;
-        public static final int cardview_light_background = 0x7f050033;
-        public static final int cardview_shadow_end_color = 0x7f050034;
-        public static final int cardview_shadow_start_color = 0x7f050035;
+        public static final int cardview_dark_background = 0x7f050033;
+        public static final int cardview_light_background = 0x7f050034;
+        public static final int cardview_shadow_end_color = 0x7f050035;
+        public static final int cardview_shadow_start_color = 0x7f050036;
     }
     public static final class dimen {
         private dimen() {}

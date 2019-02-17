@@ -25,40 +25,48 @@
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:weightSum="6"
+            android:divider="@drawable/seperator"
+            android:showDividers="middle"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <Button
+                android:id="@+id/D61"
                 android:text="D"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <Button
+                android:id="@+id/D62"
                 android:text="D"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <Button
+                android:id="@+id/D63"
                 android:layout_weight="1"
                 android:text="D"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"/>
 
             <Button
+                android:id="@+id/M6"
                 android:text="M"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
             <Button
+                android:id="@+id/T6"
                 android:text="T"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
             <Button
+                android:id="@+id/TC"
                 android:text="TC"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
@@ -84,6 +92,51 @@
             app:cardElevation="10dp"
             app:cardCornerRadius="10dp"
             >
+            <LinearLayout
+                android:padding="20dp"
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="11x10 "
+                    android:id="@+id/digitsix"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+                <TextView
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"
+                    android:text="Tolerance: 20%"
+                    android:gravity="center"
+                    android:id="@+id/tolerancesixband"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="Temp Coefficeient:10%"
+                    android:id="@+id/tempcoefficeint"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:textColor="@color/Black"
+                    android:textSize="20dp"
+                    android:text="100k"
+                    android:gravity="center"
+                    android:id="@+id/totalsix"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
 
         </android.support.v7.widget.CardView>
 
