@@ -1,0 +1,4 @@
+#Sun Feb 17 14:04:50 BDT 2019
+base.0=/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
