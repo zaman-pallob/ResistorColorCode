@@ -5,56 +5,48 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.3.1"
-    timestamp="1550429527198"
+    timestamp="1550495164312"
     token="2490582713983607871"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1857" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="162" />
     <task
         name="verifier"
-        duration="0" />
+        duration="41" />
 
+    <artifact
+        location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
     <artifact
         location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1550407637997"
+        timestamp="1550489727243"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
@@ -67,44 +59,48 @@
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1550426682508"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1550429310941"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1550493758416"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1550429527198"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1550494679867"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1550495164312"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="/mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />

@@ -758,6 +758,9 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clickfive
+id clickfour
+id clicksix
 id clip_horizontal
 id clip_vertical
 id collapseActionView

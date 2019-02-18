@@ -93,45 +93,64 @@
             app:cardCornerRadius="10dp"
             >
             <LinearLayout
-                android:padding="20dp"
+                android:padding="15dp"
                 android:weightSum="4"
                 android:layout_width="match_parent"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
                 <TextView
+                    android:paddingRight="10dp"
                     android:textColor="@color/Black"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:text="11x10 "
+                    android:textSize="15dp"
+                    android:gravity="center|right"
                     android:id="@+id/digitsix"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
 
-                <TextView
-                    android:textColor="@color/Black"
-                    android:textSize="20dp"
-                    android:text="Tolerance: 20%"
-                    android:gravity="center"
-                    android:id="@+id/tolerancesixband"
+                <LinearLayout
                     android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent">
+                    <Button
+                        android:text="Calculate"
+                        android:textSize="12dp"
+                        android:id="@+id/clicksix"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:paddingRight="10dp"
+                        android:textColor="@color/Black"
+
+                        android:textSize="15dp"
+                        android:gravity="center|right"
+                        android:id="@+id/tolerancesixband"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </LinearLayout>
                 <TextView
+                    android:paddingRight="10dp"
                     android:textColor="@color/Black"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:text="Temp Coefficeient:10%"
+                    android:textSize="15dp"
+                    android:gravity="center|right"
                     android:id="@+id/tempcoefficeint"
+
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
                 <TextView
+                    android:paddingRight="10dp"
                     android:textColor="@color/Black"
-                    android:textSize="20dp"
-                    android:text="100k"
-                    android:gravity="center"
+                    android:textSize="15dp"
+
+                    android:gravity="center|right"
                     android:id="@+id/totalsix"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
