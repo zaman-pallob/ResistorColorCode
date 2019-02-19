@@ -1,0 +1,87 @@
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:19
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:40
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:46
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:31
+-keep class com.loop.resistorcolorcode.MainActivity { <init>(); }
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/sixband.xml:89
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/fourband.xml:78
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/fiveband.xml:82
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/bfragment.xml:27
+-keep class android.support.v7.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_simple.xml:17
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/bfragment.xml:12
+-keep class android.support.v7.widget.GridLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/pallob/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd8fdb30a5716c62f59539af66ce1ee1/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /mnt/Software/Software/Project/ResistorColorCode/app/src/main/res/layout/activity_main.xml:56
+-keep class com.google.android.gms.ads.AdView { <init>(android.content.Context, android.util.AttributeSet); }
+

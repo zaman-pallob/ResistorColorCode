@@ -13,16 +13,13 @@ import com.loop.resistorcolorcode.R;
 
 public class PlainDialog {
     GridView gridView;
-    int id;
     Dialog dialog;
     Context context;
     int []colorId;
-    int[]digit={0,1,2,3,4,5,6,7,8,9};
     double []multiplier={-2,-1,0,1,2,3,4,5,6,7};
     double []tolarance={0.05,0.1,0.25,0.5,1,2,5,10,20};
-    double []tempcoef={15,25,50,100};
+    int []tempcoef={15,25,50,100};
     public PlainDialog(Context context,int id) {
-        this.id=id;
         this.context=context;
         switch (id){
             case 1:
@@ -67,28 +64,28 @@ public class PlainDialog {
     void idHandler(View id,ValueHolder holder,int p){
         switch (id.getId()){
             case R.id.D41:
-                holder.setDigit1(digit[p]);
+                holder.setDigit1(p);
                 break;
             case R.id.D42:
-                holder.setDigit2(digit[p]);
+                holder.setDigit2(p);
                 break;
             case R.id.D51:
-                holder.setDigit1(digit[p]);
+                holder.setDigit1(p);
                 break;
             case R.id.D52:
-                holder.setDigit2(digit[p]);
+                holder.setDigit2(p);
                 break;
             case R.id.D53:
-                holder.setDigit3(digit[p]);
+                holder.setDigit3(p);
                 break;
             case R.id.D61:
-                holder.setDigit1(digit[p]);
+                holder.setDigit1(p);
                 break;
             case R.id.D62:
-                holder.setDigit2(digit[p]);
+                holder.setDigit2(p);
                 break;
             case R.id.D63:
-                holder.setDigit3(digit[p]);
+                holder.setDigit3(p);
                 break;
             case R.id.M4:
                 holder.setMultiplier(multiplier[p]);

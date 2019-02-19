@@ -13,9 +13,6 @@ import android.view.ViewGroup;
 
 import com.loop.resistorcolorcode.R;
 
-import Fragments.Five;
-import Fragments.Four;
-import Fragments.Six;
 
 public class Bfragment extends Fragment {
     FragmentManager fragmentManager;

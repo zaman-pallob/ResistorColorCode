@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center|top"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:divider="@drawable/divider"
+    android:showDividers="middle"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:text="About"
+        android:textColor="@color/Black"
+        android:gravity="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="italic"
+        android:paddingRight="10dp"
+        android:layout_weight="2"
+        android:textSize="15dp"
+        android:textColor="@color/Blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Developer: Atikur Zaman Pallob\nContact: atikurzamanpallob@gmail.com\nThis is a simple app to determine the resistance of a resistor from the standard electronic color coding.If any type of mathematical error is found then it is requested to inform at the given address."
+        />
+
+</LinearLayout>

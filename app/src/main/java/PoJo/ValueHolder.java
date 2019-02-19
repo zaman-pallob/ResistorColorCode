@@ -1,10 +1,10 @@
 package PoJo;
 
 public class ValueHolder {
-    double multiplier=100,tolerance,temcoefficient;
+    double multiplier=100,tolerance;
 
 
-    int digit1,digit2,digit3;
+    int digit1,digit2,digit3,temcoefficient;
     public String getDigit1() {
         return String.valueOf(digit1);
     }
@@ -45,11 +45,11 @@ public class ValueHolder {
         this.tolerance = tolerance;
     }
 
-    public double getTemcoefficient() {
-        return temcoefficient;
+    public String getTemcoefficient() {
+        return String.valueOf(temcoefficient);
     }
 
-    public void setTemcoefficient(double temcoefficient) {
+    public void setTemcoefficient(int temcoefficient) {
         this.temcoefficient = temcoefficient;
     }
 }

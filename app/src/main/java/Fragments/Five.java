@@ -75,7 +75,7 @@ public class Five extends Fragment implements View.OnClickListener {
                 CheckerClass checkerClass=new CheckerClass(2,holder);
                 digit.setText(checkerClass.getTextView1());
                 tolerance.setText(checkerClass.getTextView2());
-                totalresistance.setText(checkerClass.getTextView3());
+                totalresistance.setText(checkerClass.getTextView4());
                 break;
         }
     }
