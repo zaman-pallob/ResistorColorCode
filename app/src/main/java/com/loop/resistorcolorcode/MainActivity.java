@@ -8,16 +8,12 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 
 import Fragments.Bfragment;
 
 public class MainActivity extends AppCompatActivity {
     FragmentManager fragmentManager;
     Button Information;
-    AdView adView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,11 +24,6 @@ public class MainActivity extends AppCompatActivity {
          FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
          fragmentTransaction.replace(R.id.root, fragment);
          fragmentTransaction.commit();
-
-        MobileAds.initialize(this,"ca-app-pub-8289383626530980/5621578681");
-        adView=findViewById(R.id.adview);
-        AdRequest adRequest=new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
 
         Information.setOnClickListener(new View.OnClickListener() {
             @Override

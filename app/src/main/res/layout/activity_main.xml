@@ -53,19 +53,6 @@
 
             </LinearLayout>
 
-                <com.google.android.gms.ads.AdView
-                    android:layout_weight="5"
-                    android:id="@+id/adview"
-                    xmlns:ads="http://schemas.android.com/apk/res-auto"
-                    android:layout_height="match_parent"
-                    android:layout_width="match_parent"
-                    ads:adSize="BANNER"
-                    ads:adUnitId="ca-app-pub-8289383626530980/5621578681"
-
-
-                    >
-
-                </com.google.android.gms.ads.AdView>
 
 
 
